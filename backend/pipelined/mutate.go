@@ -7,12 +7,12 @@ import (
 	"errors"
 	"os"
 
-	"github.com/sensu/sensu-go/asset"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/command"
-	"github.com/sensu/sensu-go/types"
-	"github.com/sensu/sensu-go/util/environment"
-	utillogging "github.com/sensu/sensu-go/util/logging"
+	"github.com/echlebek/sensu-lite/asset"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/command"
+	"github.com/echlebek/sensu-lite/types"
+	"github.com/echlebek/sensu-lite/util/environment"
+	utillogging "github.com/echlebek/sensu-lite/util/logging"
 	"github.com/sirupsen/logrus"
 )
 

@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/sensu/sensu-go/command"
-	"github.com/sensu/sensu-go/testing/mockexecutor"
+	"github.com/echlebek/sensu-lite/command"
+	"github.com/echlebek/sensu-lite/testing/mockexecutor"
 
-	"github.com/sensu/sensu-go/transport"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/transport"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 )
 

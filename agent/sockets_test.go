@@ -7,8 +7,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/sensu/sensu-go/types"
-	corev1 "github.com/sensu/sensu-go/types/v1"
+	"github.com/echlebek/sensu-lite/types"
+	corev1 "github.com/echlebek/sensu-lite/types/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

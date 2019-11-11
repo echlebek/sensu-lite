@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/sensu/sensu-go/testing/mockstore"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/spf13/cobra"
 )
 

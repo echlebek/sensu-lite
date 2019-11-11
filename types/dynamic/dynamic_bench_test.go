@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/sensu/sensu-go/types"
-	"github.com/sensu/sensu-go/types/dynamic"
+	"github.com/echlebek/sensu-lite/types"
+	"github.com/echlebek/sensu-lite/types/dynamic"
 )
 
 func BenchmarkSynthesize(b *testing.B) {

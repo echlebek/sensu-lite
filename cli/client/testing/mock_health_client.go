@@ -1,6 +1,6 @@
 package testing
 
-import "github.com/sensu/sensu-go/types"
+import "github.com/echlebek/sensu-lite/types"
 
 // Health ...
 func (c *MockClient) Health() (*types.HealthResponse, error) {

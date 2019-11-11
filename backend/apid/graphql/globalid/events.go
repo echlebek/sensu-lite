@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 //

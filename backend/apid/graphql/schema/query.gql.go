@@ -5,7 +5,7 @@ package schema
 import (
 	graphql1 "github.com/graphql-go/graphql"
 	mapstructure "github.com/mitchellh/mapstructure"
-	graphql "github.com/sensu/sensu-go/graphql"
+	graphql "github.com/echlebek/sensu-lite/graphql"
 )
 
 // QueryViewerFieldResolver implement to resolve requests for the Query's viewer field.

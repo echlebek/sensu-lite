@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	client "github.com/sensu/sensu-go/cli/client/testing"
-	stest "github.com/sensu/sensu-go/cli/commands/testing"
-	"github.com/sensu/sensu-go/types"
+	client "github.com/echlebek/sensu-lite/cli/client/testing"
+	stest "github.com/echlebek/sensu-lite/cli/commands/testing"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

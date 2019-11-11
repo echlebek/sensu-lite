@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/sensu/sensu-go/backend/store"
+	"github.com/echlebek/sensu-lite/backend/store"
 	"github.com/stretchr/testify/assert"
 )
 

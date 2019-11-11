@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sensu/sensu-go/backend/etcd"
-	"github.com/sensu/sensu-go/testing/testutil"
-	"github.com/sensu/sensu-go/transport"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/etcd"
+	"github.com/echlebek/sensu-lite/testing/testutil"
+	"github.com/echlebek/sensu-lite/transport"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

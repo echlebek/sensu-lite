@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/sensu/sensu-go/cli/client"
-	"github.com/sensu/sensu-go/cli/client/config"
-	"github.com/sensu/sensu-go/cli/commands/flags"
+	"github.com/echlebek/sensu-lite/cli/client"
+	"github.com/echlebek/sensu-lite/cli/client/config"
+	"github.com/echlebek/sensu-lite/cli/commands/flags"
 	"github.com/spf13/pflag"
 )
 

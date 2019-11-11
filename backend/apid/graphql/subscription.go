@@ -3,9 +3,9 @@ package graphql
 import (
 	"sort"
 
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/graphql"
-	"github.com/sensu/sensu-go/util/strings"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/graphql"
+	"github.com/echlebek/sensu-lite/util/strings"
 )
 
 var _ schema.SubscriptionSetFieldResolvers = (*subscriptionSetImpl)(nil)

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/globalid"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/graphql"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/globalid"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/graphql"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

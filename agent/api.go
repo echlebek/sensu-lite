@@ -11,8 +11,8 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/sensu/lasr"
-	"github.com/sensu/sensu-go/transport"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/transport"
+	"github.com/echlebek/sensu-lite/types"
 	"golang.org/x/time/rate"
 )
 

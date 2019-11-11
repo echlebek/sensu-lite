@@ -3,7 +3,7 @@ package client
 import (
 	"encoding/json"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 // HooksPath is the api path for hooks.

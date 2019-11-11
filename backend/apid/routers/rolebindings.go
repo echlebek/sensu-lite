@@ -2,9 +2,9 @@ package routers
 
 import (
 	"github.com/gorilla/mux"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/handlers"
-	"github.com/sensu/sensu-go/backend/store"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/handlers"
+	"github.com/echlebek/sensu-lite/backend/store"
 )
 
 // RoleBindingsRouter handles requests for RoleBindings.

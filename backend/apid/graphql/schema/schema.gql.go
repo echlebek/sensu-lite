@@ -4,7 +4,7 @@ package schema
 
 import (
 	graphql1 "github.com/graphql-go/graphql"
-	graphql "github.com/sensu/sensu-go/graphql"
+	graphql "github.com/echlebek/sensu-lite/graphql"
 )
 
 // Schema supplies the root types of each type of operation, query,

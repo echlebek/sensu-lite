@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/graphql-go/graphql/testutil"
-	"github.com/sensu/sensu-go/backend/apid/graphql"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql"
 )
 
 func setupRequest(method string, path string, payload interface{}) (*http.Request, error) {

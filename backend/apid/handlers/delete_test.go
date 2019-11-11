@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/testing/fixture"
-	"github.com/sensu/sensu-go/testing/mockstore"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/testing/fixture"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
 	"github.com/stretchr/testify/mock"
 )
 

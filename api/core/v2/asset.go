@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/sensu/sensu-go/js"
+	"github.com/echlebek/sensu-lite/js"
 )
 
 const (

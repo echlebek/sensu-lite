@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/sensu/sensu-go/rpc"
+	"github.com/echlebek/sensu-lite/rpc"
 	"google.golang.org/grpc"
 )
 

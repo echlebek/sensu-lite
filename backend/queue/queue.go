@@ -12,8 +12,8 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 const (

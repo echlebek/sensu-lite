@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sensu/sensu-go/backend/apid/graphql/globalid"
-	"github.com/sensu/sensu-go/backend/apid/graphql/relay"
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/graphql"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/globalid"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/relay"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/graphql"
 )
 
 //

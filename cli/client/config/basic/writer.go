@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // SaveAPIUrl saves the API URL into a configuration file

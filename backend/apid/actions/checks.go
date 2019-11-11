@@ -5,10 +5,10 @@ import (
 
 	"context"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/types"
-	utilstrings "github.com/sensu/sensu-go/util/strings"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/types"
+	utilstrings "github.com/echlebek/sensu-lite/util/strings"
 )
 
 var (

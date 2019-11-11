@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // HealthController represents the controller needs of the HealthRouter

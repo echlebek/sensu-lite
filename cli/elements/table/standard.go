@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/olekukonko/tablewriter"
-	"github.com/sensu/sensu-go/cli/elements/globals"
+	"github.com/echlebek/sensu-lite/cli/elements/globals"
 )
 
 var (

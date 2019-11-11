@@ -3,9 +3,9 @@ package config
 import (
 	"testing"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	clienttest "github.com/sensu/sensu-go/cli/client/testing"
-	test "github.com/sensu/sensu-go/cli/commands/testing"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	clienttest "github.com/echlebek/sensu-lite/cli/client/testing"
+	test "github.com/echlebek/sensu-lite/cli/commands/testing"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	client "github.com/sensu/sensu-go/cli/client/testing"
-	test "github.com/sensu/sensu-go/cli/commands/testing"
+	client "github.com/echlebek/sensu-lite/cli/client/testing"
+	test "github.com/echlebek/sensu-lite/cli/commands/testing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

@@ -8,8 +8,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/sensu/sensu-go/backend/authentication/jwt"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/authentication/jwt"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 var (

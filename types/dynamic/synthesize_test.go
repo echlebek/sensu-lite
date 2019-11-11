@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sensu/sensu-go/types"
-	"github.com/sensu/sensu-go/types/dynamic"
+	"github.com/echlebek/sensu-lite/types"
+	"github.com/echlebek/sensu-lite/types/dynamic"
 )
 
 func TestSynthesizeEvent(t *testing.T) {

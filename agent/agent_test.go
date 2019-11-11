@@ -12,10 +12,10 @@ import (
 	"sync"
 	"testing"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	sensutesting "github.com/sensu/sensu-go/testing"
-	"github.com/sensu/sensu-go/transport"
-	"github.com/sensu/sensu-go/types"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	sensutesting "github.com/echlebek/sensu-lite/testing"
+	"github.com/echlebek/sensu-lite/transport"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

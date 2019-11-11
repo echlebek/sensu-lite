@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/commands"
-	hooks "github.com/sensu/sensu-go/cli/commands/hooks"
-	"github.com/sensu/sensu-go/cli/commands/root"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/commands"
+	hooks "github.com/echlebek/sensu-lite/cli/commands/hooks"
+	"github.com/echlebek/sensu-lite/cli/commands/root"
 	"github.com/spf13/cobra"
 )
 

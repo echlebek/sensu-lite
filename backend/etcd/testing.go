@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sensu/sensu-go/testing/testutil"
+	"github.com/echlebek/sensu-lite/testing/testutil"
 	"github.com/stretchr/testify/require"
 )
 

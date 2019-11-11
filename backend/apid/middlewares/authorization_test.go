@@ -10,12 +10,12 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/gorilla/mux"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	sensuJWT "github.com/sensu/sensu-go/backend/authentication/jwt"
-	"github.com/sensu/sensu-go/backend/authorization/rbac"
-	"github.com/sensu/sensu-go/backend/seeds"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/backend/store/etcd/testutil"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	sensuJWT "github.com/echlebek/sensu-lite/backend/authentication/jwt"
+	"github.com/echlebek/sensu-lite/backend/authorization/rbac"
+	"github.com/echlebek/sensu-lite/backend/seeds"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/backend/store/etcd/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

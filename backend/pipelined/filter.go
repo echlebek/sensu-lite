@@ -5,11 +5,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/sensu/sensu-go/asset"
-	"github.com/sensu/sensu-go/js"
-	"github.com/sensu/sensu-go/types"
-	"github.com/sensu/sensu-go/types/dynamic"
-	utillogging "github.com/sensu/sensu-go/util/logging"
+	"github.com/echlebek/sensu-lite/asset"
+	"github.com/echlebek/sensu-lite/js"
+	"github.com/echlebek/sensu-lite/types"
+	"github.com/echlebek/sensu-lite/types/dynamic"
+	utillogging "github.com/echlebek/sensu-lite/util/logging"
 )
 
 func evaluateJSFilter(event interface{}, expr string, assets asset.RuntimeAssetSet) bool {

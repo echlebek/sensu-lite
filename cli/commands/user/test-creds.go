@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"github.com/AlecAivazis/survey"
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/commands/flags"
-	"github.com/sensu/sensu-go/cli/commands/helpers"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/commands/flags"
+	"github.com/echlebek/sensu-lite/cli/commands/helpers"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

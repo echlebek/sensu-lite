@@ -1,6 +1,6 @@
 package graphql
 
-import "github.com/sensu/sensu-go/backend/apid/graphql/filter"
+import "github.com/echlebek/sensu-lite/backend/apid/graphql/filter"
 
 // GlobalFilters are filters that are applied to all resolvers that accept
 // filter statements.

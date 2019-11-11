@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	utilstrings "github.com/sensu/sensu-go/util/strings"
+	utilstrings "github.com/echlebek/sensu-lite/util/strings"
 )
 
 const (

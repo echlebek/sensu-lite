@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/AlecAivazis/survey"
-	"github.com/sensu/sensu-go/cli"
-	config "github.com/sensu/sensu-go/cli/client/config"
-	hooks "github.com/sensu/sensu-go/cli/commands/hooks"
+	"github.com/echlebek/sensu-lite/cli"
+	config "github.com/echlebek/sensu-lite/cli/client/config"
+	hooks "github.com/echlebek/sensu-lite/cli/commands/hooks"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

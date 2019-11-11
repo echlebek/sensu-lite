@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	v2 "github.com/sensu/sensu-go/api/core/v2"
+	v2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 // Wrapper is a generic wrapper, with a type field for distinguishing its

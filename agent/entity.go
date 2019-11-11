@@ -3,8 +3,8 @@ package agent
 import (
 	time "github.com/echlebek/timeproxy"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/version"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/version"
 )
 
 func (a *Agent) getAgentEntity() *corev2.Entity {

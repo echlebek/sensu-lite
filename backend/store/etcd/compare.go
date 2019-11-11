@@ -2,7 +2,7 @@ package etcd
 
 import (
 	"github.com/coreos/etcd/clientv3"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 func namespaceExistsForResource(r types.MultitenantResource) clientv3.Cmp {

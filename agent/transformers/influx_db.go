@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/sirupsen/logrus"
 )
 

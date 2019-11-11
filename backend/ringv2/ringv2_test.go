@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sensu/sensu-go/backend/etcd"
+	"github.com/echlebek/sensu-lite/backend/etcd"
 )
 
 func TestAdd(t *testing.T) {

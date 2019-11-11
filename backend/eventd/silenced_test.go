@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/store/cache"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/store/cache"
 	"github.com/stretchr/testify/assert"
 )
 

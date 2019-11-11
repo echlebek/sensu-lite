@@ -10,12 +10,12 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/actions"
-	"github.com/sensu/sensu-go/backend/apid/handlers"
-	"github.com/sensu/sensu-go/testing/mockqueue"
-	"github.com/sensu/sensu-go/testing/mockstore"
-	"github.com/sensu/sensu-go/testing/testutil"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/actions"
+	"github.com/echlebek/sensu-lite/backend/apid/handlers"
+	"github.com/echlebek/sensu-lite/testing/mockqueue"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
+	"github.com/echlebek/sensu-lite/testing/testutil"
 	"github.com/stretchr/testify/mock"
 )
 

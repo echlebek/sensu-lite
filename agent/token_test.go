@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/sensu/sensu-go/testing/testutil"
-	"github.com/sensu/sensu-go/types"
-	"github.com/sensu/sensu-go/types/dynamic"
+	"github.com/echlebek/sensu-lite/testing/testutil"
+	"github.com/echlebek/sensu-lite/types"
+	"github.com/echlebek/sensu-lite/types/dynamic"
 	"github.com/stretchr/testify/assert"
 )
 

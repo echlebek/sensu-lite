@@ -5,12 +5,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/sensu/sensu-go/asset"
-	"github.com/sensu/sensu-go/backend/messaging"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/command"
-	"github.com/sensu/sensu-go/rpc"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/asset"
+	"github.com/echlebek/sensu-lite/backend/messaging"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/command"
+	"github.com/echlebek/sensu-lite/rpc"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // ExtensionExecutorGetterFunc gets an ExtensionExecutor. Used to decouple

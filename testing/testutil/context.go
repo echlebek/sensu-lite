@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/coreos/etcd/store"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // SetContextFn take context and return new context

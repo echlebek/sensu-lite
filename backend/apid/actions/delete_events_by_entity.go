@@ -6,7 +6,7 @@ import (
 	"net/url"
 
 	"github.com/gorilla/mux"
-	"github.com/sensu/sensu-go/backend/store"
+	"github.com/echlebek/sensu-lite/backend/store"
 	"github.com/sirupsen/logrus"
 )
 

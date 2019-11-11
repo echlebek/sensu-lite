@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/sensu/sensu-go/command"
+	"github.com/echlebek/sensu-lite/command"
 )
 
 // MockExecutor ...

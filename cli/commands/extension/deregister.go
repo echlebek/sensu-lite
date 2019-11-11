@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/client"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/client"
 	"github.com/spf13/cobra"
 )
 

@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/sirupsen/logrus"
 )
 
@@ -129,7 +129,7 @@ func (e *ExecutionRequest) Execute(ctx context.Context, execution ExecutionReque
 
 	// Use context.WithCancel for command execution timeout.
 	// context.WithTimeout will not kill child/grandchild processes
-	// (see issues tagged in https://github.com/sensu/sensu-go/issues/781).
+	// (see issues tagged in https://github.com/echlebek/sensu-lite/issues/781).
 	// Rather, we will use a timer, CancelFunc and proc functions
 	// to perform full cleanup.
 	ctx, timeout := context.WithCancel(ctx)

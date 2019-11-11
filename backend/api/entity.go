@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/authorization"
-	"github.com/sensu/sensu-go/backend/store"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/authorization"
+	"github.com/echlebek/sensu-lite/backend/store"
 	"github.com/sirupsen/logrus"
 )
 

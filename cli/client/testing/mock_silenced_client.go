@@ -3,10 +3,10 @@ package testing
 import (
 	"net/http"
 
-	"github.com/sensu/sensu-go/cli/client"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli/client"
+	"github.com/echlebek/sensu-lite/types"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 // CreateSilenced for use with mock lib

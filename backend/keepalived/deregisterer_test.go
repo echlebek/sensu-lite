@@ -3,12 +3,12 @@ package keepalived
 import (
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/store"
+	"github.com/echlebek/sensu-lite/backend/store"
 
-	"github.com/sensu/sensu-go/backend/messaging"
-	"github.com/sensu/sensu-go/testing/mockbus"
-	"github.com/sensu/sensu-go/testing/mockstore"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/messaging"
+	"github.com/echlebek/sensu-lite/testing/mockbus"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

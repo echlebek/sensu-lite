@@ -3,9 +3,9 @@ package asset
 import (
 	"context"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/js"
-	"github.com/sensu/sensu-go/types/dynamic"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/js"
+	"github.com/echlebek/sensu-lite/types/dynamic"
 	"github.com/sirupsen/logrus"
 )
 

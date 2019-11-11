@@ -5,7 +5,7 @@ package schema
 import (
 	errors "errors"
 	graphql1 "github.com/graphql-go/graphql"
-	graphql "github.com/sensu/sensu-go/graphql"
+	graphql "github.com/echlebek/sensu-lite/graphql"
 )
 
 // OffsetPageInfoHasNextPageFieldResolver implement to resolve requests for the OffsetPageInfo's hasNextPage field.

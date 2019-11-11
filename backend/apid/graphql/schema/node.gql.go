@@ -4,7 +4,7 @@ package schema
 
 import (
 	graphql1 "github.com/graphql-go/graphql"
-	graphql "github.com/sensu/sensu-go/graphql"
+	graphql "github.com/echlebek/sensu-lite/graphql"
 )
 
 // NodeType Node describes an object with an ID.

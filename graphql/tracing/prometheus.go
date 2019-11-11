@@ -7,7 +7,7 @@ import (
 	"github.com/graphql-go/graphql"
 	"github.com/graphql-go/graphql/gqlerrors"
 	"github.com/prometheus/client_golang/prometheus"
-	utilstrings "github.com/sensu/sensu-go/util/strings"
+	utilstrings "github.com/echlebek/sensu-lite/util/strings"
 )
 
 const (

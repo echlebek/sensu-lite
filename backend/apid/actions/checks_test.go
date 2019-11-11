@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/queue"
-	"github.com/sensu/sensu-go/testing/mockqueue"
-	"github.com/sensu/sensu-go/testing/mockstore"
-	"github.com/sensu/sensu-go/testing/testutil"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/queue"
+	"github.com/echlebek/sensu-lite/testing/mockqueue"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
+	"github.com/echlebek/sensu-lite/testing/testutil"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

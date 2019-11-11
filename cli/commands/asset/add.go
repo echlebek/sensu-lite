@@ -7,13 +7,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/sensu/sensu-go/bonsai"
-	"github.com/sensu/sensu-go/cli"
+	"github.com/echlebek/sensu-lite/bonsai"
+	"github.com/echlebek/sensu-lite/cli"
 	"github.com/spf13/cobra"
 
 	goversion "github.com/hashicorp/go-version"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/cli/commands/create"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/cli/commands/create"
 )
 
 var rename string

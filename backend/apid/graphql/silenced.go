@@ -3,11 +3,11 @@ package graphql
 import (
 	"time"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/globalid"
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/graphql"
-	"github.com/sensu/sensu-go/types"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/globalid"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/graphql"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 var _ schema.SilencedFieldResolvers = (*silencedImpl)(nil)

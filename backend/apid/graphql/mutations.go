@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/mitchellh/mapstructure"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/globalid"
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/types"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/globalid"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 var _ schema.MutationFieldResolvers = (*mutationsImpl)(nil)

@@ -3,8 +3,8 @@ package completion
 import (
 	"fmt"
 
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/commands/hooks"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/commands/hooks"
 	"github.com/spf13/cobra"
 )
 

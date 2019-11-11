@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/etcd"
+	"github.com/echlebek/sensu-lite/backend/etcd"
 )
 
 func TestPool(t *testing.T) {

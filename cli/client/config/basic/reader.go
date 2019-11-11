@@ -1,8 +1,8 @@
 package basic
 
 import (
-	"github.com/sensu/sensu-go/cli/client/config"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli/client/config"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // APIUrl returns the active cluster API URL

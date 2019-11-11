@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/sensu/sensu-go/agent/cmd"
+	"github.com/echlebek/sensu-lite/agent/cmd"
 	"github.com/sirupsen/logrus"
 )
 

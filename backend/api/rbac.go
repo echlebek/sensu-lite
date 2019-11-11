@@ -3,10 +3,10 @@ package api
 import (
 	"context"
 
-	"github.com/sensu/sensu-go/backend/authorization"
-	"github.com/sensu/sensu-go/backend/store"
+	"github.com/echlebek/sensu-lite/backend/authorization"
+	"github.com/echlebek/sensu-lite/backend/store"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 type RBACClient struct {

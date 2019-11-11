@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/cli"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/cli"
 	"github.com/spf13/cobra"
 )
 

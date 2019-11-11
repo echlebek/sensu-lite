@@ -1,9 +1,9 @@
 package graphql
 
 import (
-	v2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/filter"
-	"github.com/sensu/sensu-go/util/strings"
+	v2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/filter"
+	"github.com/echlebek/sensu-lite/util/strings"
 )
 
 // EntityFilters returns collection of filters used for matching resources.

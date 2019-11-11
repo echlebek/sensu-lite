@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/go-resty/resty"
-	"github.com/sensu/sensu-go/backend/apid/actions"
+	"github.com/echlebek/sensu-lite/backend/apid/actions"
 )
 
 // APIError describes an error message returned by the REST API

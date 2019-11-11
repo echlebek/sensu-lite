@@ -7,7 +7,7 @@ import (
 	"path"
 
 	"github.com/gorilla/mux"
-	"github.com/sensu/sensu-go/backend/apid/actions"
+	"github.com/echlebek/sensu-lite/backend/apid/actions"
 )
 
 type errorBody struct {

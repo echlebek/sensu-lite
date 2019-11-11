@@ -3,8 +3,8 @@ package graphql
 import (
 	"strconv"
 
-	v2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/suggest"
+	v2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/suggest"
 )
 
 var (

@@ -1,7 +1,7 @@
 package graphql
 
 import (
-	"github.com/sensu/sensu-go/backend/apid/graphql/filter"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/filter"
 )
 
 // MutatorFilters returns collection of filters used for matching resources.

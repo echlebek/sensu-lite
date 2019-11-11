@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/sensu/sensu-go/backend/authentication/jwt"
+	"github.com/echlebek/sensu-lite/backend/authentication/jwt"
 
 	"github.com/gorilla/mux"
-	"github.com/sensu/sensu-go/backend/api"
-	"github.com/sensu/sensu-go/backend/authentication"
-	"github.com/sensu/sensu-go/backend/store"
+	"github.com/echlebek/sensu-lite/backend/api"
+	"github.com/echlebek/sensu-lite/backend/authentication"
+	"github.com/echlebek/sensu-lite/backend/store"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 // AuthenticationRouter handles authentication related requests

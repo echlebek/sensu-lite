@@ -3,11 +3,11 @@ package seeds
 import (
 	"context"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/authentication/bcrypt"
-	"github.com/sensu/sensu-go/backend/authentication/jwt"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/types"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/authentication/bcrypt"
+	"github.com/echlebek/sensu-lite/backend/authentication/jwt"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // SeedInitialData will seed a store with initial data. This method is

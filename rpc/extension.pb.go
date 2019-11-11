@@ -6,7 +6,7 @@ package rpc
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import types "github.com/sensu/sensu-go/types"
+import types "github.com/echlebek/sensu-lite/types"
 
 import (
 	context "golang.org/x/net/context"

@@ -9,12 +9,12 @@ import (
 
 	"text/template"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	mockclient "github.com/sensu/sensu-go/cli/client/testing"
-	cmdtesting "github.com/sensu/sensu-go/cli/commands/testing"
+	mockclient "github.com/echlebek/sensu-lite/cli/client/testing"
+	cmdtesting "github.com/echlebek/sensu-lite/cli/commands/testing"
 )
 
 var resourceSpecTmpl = template.Must(template.New("test").Parse(`

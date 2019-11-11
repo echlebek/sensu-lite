@@ -8,9 +8,9 @@ import (
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/echlebek/crock"
 	time "github.com/echlebek/timeproxy"
-	v2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/testing/mockstore"
-	"github.com/sensu/sensu-go/types"
+	v2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 )
 

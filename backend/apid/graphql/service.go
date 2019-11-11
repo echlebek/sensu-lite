@@ -4,10 +4,10 @@ import (
 	"context"
 
 	gql "github.com/graphql-go/graphql"
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/cli/client"
-	"github.com/sensu/sensu-go/graphql"
-	"github.com/sensu/sensu-go/graphql/tracing"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/cli/client"
+	"github.com/echlebek/sensu-lite/graphql"
+	"github.com/echlebek/sensu-lite/graphql/tracing"
 )
 
 type InitHook func(*graphql.Service, ServiceConfig)

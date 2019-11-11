@@ -1,12 +1,12 @@
 package graphql
 
 import (
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/globalid"
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/graphql"
-	"github.com/sensu/sensu-go/types"
-	"github.com/sensu/sensu-go/util/strings"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/globalid"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/graphql"
+	"github.com/echlebek/sensu-lite/types"
+	"github.com/echlebek/sensu-lite/util/strings"
 )
 
 var _ schema.HandlerFieldResolvers = (*handlerImpl)(nil)

@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	client "github.com/sensu/sensu-go/cli/client/testing"
-	test "github.com/sensu/sensu-go/cli/commands/testing"
-	"github.com/sensu/sensu-go/types"
+	client "github.com/echlebek/sensu-lite/cli/client/testing"
+	test "github.com/echlebek/sensu-lite/cli/commands/testing"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

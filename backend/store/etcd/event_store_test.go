@@ -8,14 +8,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/testing/mockstore"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 func TestEventStorageMaxOutputSize(t *testing.T) {

@@ -4,10 +4,10 @@ import (
 	"crypto/tls"
 	"os"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/cli/client"
-	"github.com/sensu/sensu-go/cli/client/config"
-	"github.com/sensu/sensu-go/cli/client/config/basic"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/cli/client"
+	"github.com/echlebek/sensu-lite/cli/client/config"
+	"github.com/echlebek/sensu-lite/cli/client/config/basic"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 )

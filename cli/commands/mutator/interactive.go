@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey"
-	"github.com/sensu/sensu-go/cli/commands/helpers"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli/commands/helpers"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/spf13/pflag"
 )
 

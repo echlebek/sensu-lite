@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/coreos/etcd/clientv3"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/types"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // ListOptions represents the various options that can be used when listing
@@ -248,7 +248,7 @@ type ClusterMemberClient interface {
 
 // LicenseClient specifies the enteprise client methods for license management.
 // This is a temporary workaround until
-// https://github.com/sensu/sensu-go/issues/1870 is implemented
+// https://github.com/echlebek/sensu-lite/issues/1870 is implemented
 type LicenseClient interface {
 	// FetchLicense fetches the installed license
 	FetchLicense() (interface{}, error)

@@ -6,7 +6,7 @@ import (
 	"net/url"
 
 	"github.com/gorilla/mux"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // Namespace retrieves the namespace passed as a query parameter and add it into

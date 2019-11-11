@@ -6,8 +6,8 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/google/uuid"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/testing/mockstore"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"golang.org/x/net/context"

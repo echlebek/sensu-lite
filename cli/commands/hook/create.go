@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/commands/flags"
-	"github.com/sensu/sensu-go/cli/commands/helpers"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/commands/flags"
+	"github.com/echlebek/sensu-lite/cli/commands/helpers"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/spf13/cobra"
 )
 

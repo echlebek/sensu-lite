@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/coreos/etcd/clientv3"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/backend/store/etcd"
-	"github.com/sensu/sensu-go/types/dynamic"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/backend/store/etcd"
+	"github.com/echlebek/sensu-lite/types/dynamic"
 )
 
 // Value contains a cached value, and its synthesized companion.

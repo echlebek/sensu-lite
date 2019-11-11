@@ -5,7 +5,7 @@ package schema
 import (
 	graphql1 "github.com/graphql-go/graphql"
 	ast "github.com/graphql-go/graphql/language/ast"
-	graphql "github.com/sensu/sensu-go/graphql"
+	graphql "github.com/echlebek/sensu-lite/graphql"
 )
 
 /*

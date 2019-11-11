@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 var mu sync.Mutex

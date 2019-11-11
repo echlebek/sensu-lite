@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/sensu/sensu-go/backend/apid/actions"
+	"github.com/echlebek/sensu-lite/backend/apid/actions"
 )
 
 func writeErr(w http.ResponseWriter, err error) {

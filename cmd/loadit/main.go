@@ -10,8 +10,8 @@ import (
 	"syscall"
 
 	"github.com/google/uuid"
-	"github.com/sensu/sensu-go/agent"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/agent"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/sirupsen/logrus"
 )
 

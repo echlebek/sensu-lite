@@ -5,10 +5,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/sensu/sensu-go/cli/client/config"
-	"github.com/sensu/sensu-go/cli/commands/flags"
-	"github.com/sensu/sensu-go/cli/elements/list"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli/client/config"
+	"github.com/echlebek/sensu-lite/cli/commands/flags"
+	"github.com/echlebek/sensu-lite/cli/elements/list"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/spf13/cobra"
 )
 

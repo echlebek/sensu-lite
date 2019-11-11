@@ -12,8 +12,8 @@ import (
 
 	"github.com/atlassian/gostatsd"
 	"github.com/atlassian/gostatsd/pkg/statsd"
-	"github.com/sensu/sensu-go/transport"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/transport"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 	"golang.org/x/time/rate"

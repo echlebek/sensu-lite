@@ -4,7 +4,7 @@ package schema
 
 import (
 	graphql1 "github.com/graphql-go/graphql"
-	graphql "github.com/sensu/sensu-go/graphql"
+	graphql "github.com/echlebek/sensu-lite/graphql"
 )
 
 // ViewerNamespacesFieldResolver implement to resolve requests for the Viewer's namespaces field.

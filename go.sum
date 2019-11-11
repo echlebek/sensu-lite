@@ -59,6 +59,8 @@ github.com/dsnet/compress v0.0.0-20170928175515-f41072d47fff h1:MFJQNyvphGyGo3sZ
 github.com/dsnet/compress v0.0.0-20170928175515-f41072d47fff/go.mod h1:KjxHHirfLaw19iGT70HvVjHQsL1vq1SRQB4yOsAfy2s=
 github.com/echlebek/crock v1.0.1 h1:KbzamClMIfVIkkjq/GTXf+N16KylYBpiaTitO3f1ujg=
 github.com/echlebek/crock v1.0.1/go.mod h1:/kvwHRX3ZXHj/kHWJkjXDmzzRow54EJuHtQ/PapL/HI=
+github.com/echlebek/sensu-lite v5.10.1+incompatible h1:0ZJKCQW1jAGvUaYKdIKhEy3nuT7XfSy4NUrbrZ8eSoc=
+github.com/echlebek/sensu-lite v5.10.1+incompatible/go.mod h1:OluSi+c8pHjurdcOvWfdZNqL6HSQZHlvtscgetH0szE=
 github.com/echlebek/timeproxy v1.0.0 h1:V41/v8tmmMDNMA2GrBPI45nlXb3F7+OY+nJz1BqKsCk=
 github.com/echlebek/timeproxy v1.0.0/go.mod h1:0dg2Lnb8no/jFwoMQKMTU6iAivgoMptGqSTprhnrRtk=
 github.com/emicklei/proto v1.1.0 h1:3OWZhkr68eGPyCY1AtNh1u+5IyBiVVDJMXKRX9cOFgY=
@@ -233,6 +235,8 @@ github.com/rogpeppe/fastuuid v0.0.0-20150106093220-6724a57986af/go.mod h1:XWv6So
 github.com/russross/blackfriday v1.5.2/go.mod h1:JO/DiYxRf+HjHt06OyowR9PTA263kcR/rfWxYHBV53g=
 github.com/sensu/lasr v1.2.1 h1:4H1QfOrPkwYHMFE5qAI6GwKEFkcI1YRyjjWidz1MihQ=
 github.com/sensu/lasr v1.2.1/go.mod h1:VIMtIK67Bcef6dTfctRCBg8EY9M9TtCY9NEFT6Zw5xQ=
+github.com/sensu/yaml v2.1.0+incompatible h1:czp9SVrnke+9BT9YG8L0O2ZVPY5z/gFQqOqkWeock+4=
+github.com/sensu/yaml v2.1.0+incompatible/go.mod h1:jAJzz8aoerQTzCpAomgeco6KWVUbPZ936JS4hQ3PVu0=
 github.com/shirou/gopsutil v0.0.0-20180801053943-8048a2e9c577 h1:fgCv3khdlkkaSfAehroQ2qpqJaM4eBFl6MhCWOWQNpY=
 github.com/shirou/gopsutil v0.0.0-20180801053943-8048a2e9c577/go.mod h1:5b4v6he4MtMOwMlS0TUMTu2PcXUg8+E1lC7eC3UO/RA=
 github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4 h1:udFKJ0aHUL60LboW/A+DfgoHVedieIzIXE8uylPue0U=

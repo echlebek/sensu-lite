@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/sensu/sensu-go/agent"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/util/path"
-	"github.com/sensu/sensu-go/util/url"
-	"github.com/sensu/sensu-go/version"
+	"github.com/echlebek/sensu-lite/agent"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/util/path"
+	"github.com/echlebek/sensu-lite/util/url"
+	"github.com/echlebek/sensu-lite/version"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
@@ -155,7 +155,7 @@ func newStartCommand(ctx context.Context, args []string, logger *logrus.Entry) *
 			cfg.Redact = viper.GetStringSlice(flagRedact)
 			cfg.Subscriptions = viper.GetStringSlice(flagSubscriptions)
 
-			// Workaround for https://github.com/sensu/sensu-go/issues/2357. Detect if
+			// Workaround for https://github.com/echlebek/sensu-lite/issues/2357. Detect if
 			// the flags for labels and annotations were changed. If so, use their
 			// values since flags take precedence over config
 			if flag := cmd.Flags().Lookup(flagLabels); flag != nil && flag.Changed {

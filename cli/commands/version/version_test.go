@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	test "github.com/sensu/sensu-go/cli/commands/testing"
+	test "github.com/echlebek/sensu-lite/cli/commands/testing"
 	"github.com/stretchr/testify/assert"
 )
 

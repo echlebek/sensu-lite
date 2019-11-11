@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/sensu/sensu-go/version"
+	"github.com/echlebek/sensu-lite/version"
 	"github.com/spf13/cobra"
 )
 

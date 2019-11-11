@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/authentication/jwt"
-	"github.com/sensu/sensu-go/backend/store"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/authentication/jwt"
+	"github.com/echlebek/sensu-lite/backend/store"
 )
 
 // Type represents the type of the basic authentication provider

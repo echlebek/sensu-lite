@@ -1,8 +1,8 @@
 package check
 
 import (
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/commands/check/subcommands"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/commands/check/subcommands"
 	"github.com/spf13/cobra"
 )
 

@@ -10,9 +10,9 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/gogo/protobuf/proto"
-	"github.com/sensu/sensu-go/backend/store"
+	"github.com/echlebek/sensu-lite/backend/store"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 const (

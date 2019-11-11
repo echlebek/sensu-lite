@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/coreos/etcd/clientv3"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/types"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // ErrAlreadyExists is returned when an object already exists

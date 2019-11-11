@@ -5,10 +5,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/client"
-	"github.com/sensu/sensu-go/cli/client/config/basic"
-	clientmock "github.com/sensu/sensu-go/cli/client/testing"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/client"
+	"github.com/echlebek/sensu-lite/cli/client/config/basic"
+	clientmock "github.com/echlebek/sensu-lite/cli/client/testing"
 	"github.com/spf13/cobra"
 )
 

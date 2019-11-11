@@ -11,8 +11,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/sensu/sensu-go/rpc/extension"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/rpc/extension"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 var (

@@ -2,8 +2,8 @@ package helpers
 
 import (
 	jwt "github.com/dgrijalva/jwt-go"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/cli/client/config"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/cli/client/config"
 )
 
 // GetCurrentUsername retrieves the username from the active JWT

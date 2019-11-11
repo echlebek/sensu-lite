@@ -6,11 +6,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/store"
+	"github.com/echlebek/sensu-lite/backend/store"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 func TestMutatorStorage(t *testing.T) {

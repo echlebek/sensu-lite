@@ -9,10 +9,10 @@ import (
 
 	"github.com/echlebek/crock"
 	time "github.com/echlebek/timeproxy"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/etcd"
-	store "github.com/sensu/sensu-go/backend/store/etcd"
-	"github.com/sensu/sensu-go/types"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/etcd"
+	store "github.com/echlebek/sensu-lite/backend/store/etcd"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 var mockTime = crock.NewTime(time.Unix(0, 0))

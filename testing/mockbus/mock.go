@@ -3,7 +3,7 @@ package mockbus
 import (
 	"context"
 
-	"github.com/sensu/sensu-go/backend/messaging"
+	"github.com/echlebek/sensu-lite/backend/messaging"
 	"github.com/stretchr/testify/mock"
 )
 

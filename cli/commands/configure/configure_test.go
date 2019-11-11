@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sensu/sensu-go/cli/client/config"
-	client "github.com/sensu/sensu-go/cli/client/testing"
-	test "github.com/sensu/sensu-go/cli/commands/testing"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli/client/config"
+	client "github.com/echlebek/sensu-lite/cli/client/testing"
+	test "github.com/echlebek/sensu-lite/cli/commands/testing"
+	"github.com/echlebek/sensu-lite/types"
 
 	"github.com/stretchr/testify/assert"
 )

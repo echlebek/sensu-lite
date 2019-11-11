@@ -6,7 +6,7 @@ import (
 	errors "errors"
 	graphql1 "github.com/graphql-go/graphql"
 	mapstructure "github.com/mitchellh/mapstructure"
-	graphql "github.com/sensu/sensu-go/graphql"
+	graphql "github.com/echlebek/sensu-lite/graphql"
 )
 
 // NamespacedType Namespaced represents an object that belongs to a unique namespace.

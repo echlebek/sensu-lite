@@ -16,7 +16,7 @@ import (
 	"strings"
 
 	"github.com/mgutz/ansi"
-	"github.com/sensu/sensu-go/backend/dashboardd/asset"
+	"github.com/echlebek/sensu-lite/backend/dashboardd/asset"
 	"github.com/shurcooL/vfsgen"
 )
 

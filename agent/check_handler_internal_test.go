@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sensu/sensu-go/command"
-	"github.com/sensu/sensu-go/testing/mockexecutor"
+	"github.com/echlebek/sensu-lite/command"
+	"github.com/echlebek/sensu-lite/testing/mockexecutor"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/transport"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/transport"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

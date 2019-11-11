@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/sensu/sensu-go/backend/authentication/jwt"
-	"github.com/sensu/sensu-go/backend/authorization"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/authentication/jwt"
+	"github.com/echlebek/sensu-lite/backend/authorization"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // addAuthUser finds the user in the provided context, and sets it on the

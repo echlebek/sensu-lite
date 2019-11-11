@@ -5,8 +5,8 @@ import (
 
 	time "github.com/echlebek/timeproxy"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	corev1 "github.com/sensu/sensu-go/types/v1"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	corev1 "github.com/echlebek/sensu-lite/types/v1"
 )
 
 // prepareEvent accepts a partial or complete event and tries to add any missing

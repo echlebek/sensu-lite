@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 var htmlReplacer = strings.NewReplacer(`\u0026`, "&", `\u003c`, "<", `\u003e`, ">")

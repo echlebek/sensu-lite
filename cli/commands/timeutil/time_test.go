@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 func TestDateToTime(t *testing.T) {

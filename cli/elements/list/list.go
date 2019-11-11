@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/sensu/sensu-go/cli/elements/globals"
+	"github.com/echlebek/sensu-lite/cli/elements/globals"
 	padUtf8 "github.com/willf/pad/utf8"
 )
 

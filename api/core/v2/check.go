@@ -10,7 +10,7 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 	"github.com/robfig/cron"
-	utilstrings "github.com/sensu/sensu-go/util/strings"
+	utilstrings "github.com/echlebek/sensu-lite/util/strings"
 )
 
 const (

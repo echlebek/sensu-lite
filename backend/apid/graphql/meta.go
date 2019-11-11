@@ -3,9 +3,9 @@ package graphql
 import (
 	"sort"
 
-	"github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/graphql"
+	"github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/graphql"
 )
 
 var _ schema.ObjectMetaFieldResolvers = (*objectMetaImpl)(nil)

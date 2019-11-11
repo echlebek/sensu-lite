@@ -3,7 +3,7 @@ package globalid
 import (
 	"reflect"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 //

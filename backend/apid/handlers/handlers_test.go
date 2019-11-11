@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/testing/fixture"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/testing/fixture"
 )
 
 func TestCheckMeta(t *testing.T) {

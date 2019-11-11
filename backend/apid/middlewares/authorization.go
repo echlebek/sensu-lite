@@ -3,8 +3,8 @@ package middlewares
 import (
 	"net/http"
 
-	"github.com/sensu/sensu-go/backend/apid/actions"
-	"github.com/sensu/sensu-go/backend/authorization"
+	"github.com/echlebek/sensu-lite/backend/apid/actions"
+	"github.com/echlebek/sensu-lite/backend/authorization"
 )
 
 // Authorization is an HTTP middleware that enforces authorization

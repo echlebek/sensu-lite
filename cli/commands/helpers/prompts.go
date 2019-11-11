@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/AlecAivazis/survey"
-	"github.com/sensu/sensu-go/cli/elements/globals"
+	"github.com/echlebek/sensu-lite/cli/elements/globals"
 )
 
 // ConfirmDelete confirm a deletion operation before it is completed.

@@ -8,7 +8,7 @@ import (
 
 	_ "unsafe"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/shirou/gopsutil/host"
 	"github.com/shirou/gopsutil/net"
 )

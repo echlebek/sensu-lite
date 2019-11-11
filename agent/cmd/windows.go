@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sensu/sensu-go/util/path"
+	"github.com/echlebek/sensu-lite/util/path"
 	"github.com/spf13/cobra"
 )
 

@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/types"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // EventStoreProxy is a mechanism for providing an EventStore with a replaceable

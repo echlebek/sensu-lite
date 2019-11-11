@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/messaging"
-	"github.com/sensu/sensu-go/backend/queue"
-	"github.com/sensu/sensu-go/backend/store/cache"
-	"github.com/sensu/sensu-go/backend/store/etcd/testutil"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/messaging"
+	"github.com/echlebek/sensu-lite/backend/queue"
+	"github.com/echlebek/sensu-lite/backend/store/cache"
+	"github.com/echlebek/sensu-lite/backend/store/etcd/testutil"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

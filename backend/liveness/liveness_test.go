@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sensu/sensu-go/backend/etcd"
+	"github.com/echlebek/sensu-lite/backend/etcd"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
 )

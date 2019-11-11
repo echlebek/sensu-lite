@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/coreos/etcd/clientv3"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/util/retry"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/util/retry"
 )
 
 var (

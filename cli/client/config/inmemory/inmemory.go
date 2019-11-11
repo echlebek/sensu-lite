@@ -1,8 +1,8 @@
 package inmemory
 
 import (
-	"github.com/sensu/sensu-go/cli/client/config"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli/client/config"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // Config describes details associated with making requests

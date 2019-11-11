@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"testing"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/authorization"
-	"github.com/sensu/sensu-go/backend/authorization/rbac"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/testing/mockstore"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/authorization"
+	"github.com/echlebek/sensu-lite/backend/authorization/rbac"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
 	"github.com/stretchr/testify/mock"
 )
 

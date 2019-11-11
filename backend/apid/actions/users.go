@@ -3,9 +3,9 @@ package actions
 import (
 	"context"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/authentication/bcrypt"
-	"github.com/sensu/sensu-go/backend/store"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/authentication/bcrypt"
+	"github.com/echlebek/sensu-lite/backend/store"
 )
 
 // UserController exposes actions in which a viewer can perform.

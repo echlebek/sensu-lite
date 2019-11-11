@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/store/etcd/testutil"
+	"github.com/echlebek/sensu-lite/backend/store/etcd/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

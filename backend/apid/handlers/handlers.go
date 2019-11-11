@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/url"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/store"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/store"
 )
 
 // Handlers represents the HTTP handlers for CRUD operations on resources

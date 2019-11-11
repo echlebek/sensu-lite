@@ -3,12 +3,12 @@ package schedulerd
 import (
 	"context"
 
-	"github.com/sensu/sensu-go/backend/messaging"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/backend/store/cache"
+	"github.com/echlebek/sensu-lite/backend/messaging"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/backend/store/cache"
 	"github.com/sirupsen/logrus"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 // CronScheduler schedules checks to be executed on a cron schedule.

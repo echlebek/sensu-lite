@@ -3,9 +3,9 @@ package eventd
 import (
 	"context"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/store/cache"
-	stringsutil "github.com/sensu/sensu-go/util/strings"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/store/cache"
+	stringsutil "github.com/echlebek/sensu-lite/util/strings"
 )
 
 // addToSilencedBy takes a silenced entry ID and adds it to a silence of IDs if

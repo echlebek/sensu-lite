@@ -5,7 +5,7 @@ package schema
 import (
 	errors "errors"
 	graphql1 "github.com/graphql-go/graphql"
-	graphql "github.com/sensu/sensu-go/graphql"
+	graphql "github.com/echlebek/sensu-lite/graphql"
 )
 
 // UserUsernameFieldResolver implement to resolve requests for the User's username field.

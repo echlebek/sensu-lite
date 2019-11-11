@@ -1,4 +1,4 @@
-module github.com/sensu/sensu-go
+module github.com/echlebek/sensu-lite
 
 go 1.12
 
@@ -62,6 +62,7 @@ require (
 	github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d
 	github.com/robfig/cron v0.0.0-20171101201047-2315d5715e36
 	github.com/sensu/lasr v1.2.1
+	github.com/sensu/yaml v2.1.0+incompatible // indirect
 	github.com/shirou/gopsutil v0.0.0-20180801053943-8048a2e9c577
 	github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4 // indirect
 	github.com/sirupsen/logrus v1.4.2

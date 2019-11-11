@@ -5,12 +5,12 @@ import (
 	"sort"
 	"strings"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/filter"
-	"github.com/sensu/sensu-go/backend/apid/graphql/globalid"
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/graphql"
-	string_utils "github.com/sensu/sensu-go/util/strings"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/filter"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/globalid"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/graphql"
+	string_utils "github.com/echlebek/sensu-lite/util/strings"
 )
 
 var _ schema.NamespaceFieldResolvers = (*namespaceImpl)(nil)

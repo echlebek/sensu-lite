@@ -5,8 +5,8 @@ import (
 	"net/url"
 
 	"github.com/gorilla/mux"
-	"github.com/sensu/sensu-go/backend/apid/actions"
-	"github.com/sensu/sensu-go/backend/store"
+	"github.com/echlebek/sensu-lite/backend/apid/actions"
+	"github.com/echlebek/sensu-lite/backend/store"
 )
 
 // DeleteResource deletes the resources identified in the request path

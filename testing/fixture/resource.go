@@ -3,7 +3,7 @@ package fixture
 import (
 	"fmt"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 // GetObjectMeta ...

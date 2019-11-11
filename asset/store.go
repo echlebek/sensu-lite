@@ -3,8 +3,8 @@ package asset
 import (
 	"context"
 
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // GetAssets retrieves all Assets from the store if contained in the list of asset names

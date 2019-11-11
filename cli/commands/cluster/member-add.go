@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/coreos/etcd/clientv3"
-	"github.com/sensu/sensu-go/cli"
+	"github.com/echlebek/sensu-lite/cli"
 	"github.com/spf13/cobra"
 )
 

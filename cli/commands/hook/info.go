@@ -6,11 +6,11 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/commands/helpers"
-	"github.com/sensu/sensu-go/cli/elements/globals"
-	"github.com/sensu/sensu-go/cli/elements/list"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/commands/helpers"
+	"github.com/echlebek/sensu-lite/cli/elements/globals"
+	"github.com/echlebek/sensu-lite/cli/elements/list"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/spf13/cobra"
 )
 

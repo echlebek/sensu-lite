@@ -1,10 +1,10 @@
 package root
 
 import (
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/client/config"
-	"github.com/sensu/sensu-go/cli/commands/version"
-	"github.com/sensu/sensu-go/util/path"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/client/config"
+	"github.com/echlebek/sensu-lite/cli/commands/version"
+	"github.com/echlebek/sensu-lite/util/path"
 	"github.com/spf13/cobra"
 )
 

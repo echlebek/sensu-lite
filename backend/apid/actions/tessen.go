@@ -1,9 +1,9 @@
 package actions
 
 import (
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/messaging"
-	"github.com/sensu/sensu-go/backend/store"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/messaging"
+	"github.com/echlebek/sensu-lite/backend/store"
 	"golang.org/x/net/context"
 )
 

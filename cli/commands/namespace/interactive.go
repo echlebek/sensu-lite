@@ -2,7 +2,7 @@ package namespace
 
 import (
 	"github.com/AlecAivazis/survey"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 type namespaceOpts struct {

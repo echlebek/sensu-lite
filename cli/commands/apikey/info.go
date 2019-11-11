@@ -6,10 +6,10 @@ import (
 	"io"
 	"time"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/commands/helpers"
-	"github.com/sensu/sensu-go/cli/elements/list"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/commands/helpers"
+	"github.com/echlebek/sensu-lite/cli/elements/list"
 	"github.com/spf13/cobra"
 )
 

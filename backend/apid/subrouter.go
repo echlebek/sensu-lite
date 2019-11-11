@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/sensu/sensu-go/backend/apid/middlewares"
+	"github.com/echlebek/sensu-lite/backend/apid/middlewares"
 )
 
 // WrappedRouter is equivelant to mux.Router with the addition that any time it

@@ -7,7 +7,7 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/gogo/protobuf/proto"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 const (

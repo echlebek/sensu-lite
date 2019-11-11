@@ -1,8 +1,8 @@
 package graphql
 
 import (
-	v2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/filter"
+	v2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/filter"
 )
 
 // HandlerFilters returns collection of filters used for matching resources.

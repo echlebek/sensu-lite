@@ -6,11 +6,11 @@ import (
 
 	time "github.com/echlebek/timeproxy"
 	"github.com/robfig/cron"
-	"github.com/sensu/sensu-go/agent"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/store/cache"
-	"github.com/sensu/sensu-go/js"
-	"github.com/sensu/sensu-go/types/dynamic"
+	"github.com/echlebek/sensu-lite/agent"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/store/cache"
+	"github.com/echlebek/sensu-lite/js"
+	"github.com/echlebek/sensu-lite/types/dynamic"
 )
 
 // matchEntities matches the provided list of entities to the entity attributes

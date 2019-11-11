@@ -12,8 +12,8 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
 	"github.com/robfig/cron"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/util/retry"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/util/retry"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/time/rate"
 )

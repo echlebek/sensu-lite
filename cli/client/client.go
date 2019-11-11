@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/go-resty/resty"
-	"github.com/sensu/sensu-go/cli/client/config"
+	"github.com/echlebek/sensu-lite/cli/client/config"
 	"github.com/sirupsen/logrus"
 )
 

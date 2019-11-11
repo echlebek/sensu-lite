@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/liveness"
-	"github.com/sensu/sensu-go/backend/messaging"
-	"github.com/sensu/sensu-go/testing/mockstore"
+	"github.com/echlebek/sensu-lite/backend/liveness"
+	"github.com/echlebek/sensu-lite/backend/messaging"
+	"github.com/echlebek/sensu-lite/testing/mockstore"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
 )
 
 type mockDeregisterer struct {

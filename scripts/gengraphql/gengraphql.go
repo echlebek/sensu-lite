@@ -10,7 +10,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/sensu/sensu-go/graphql/generator"
+	"github.com/echlebek/sensu-lite/graphql/generator"
 )
 
 const (

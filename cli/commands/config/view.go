@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/commands/helpers"
-	"github.com/sensu/sensu-go/cli/commands/hooks"
-	"github.com/sensu/sensu-go/cli/elements/list"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/commands/helpers"
+	"github.com/echlebek/sensu-lite/cli/commands/hooks"
+	"github.com/echlebek/sensu-lite/cli/elements/list"
 	"github.com/spf13/cobra"
 )
 

@@ -3,7 +3,7 @@ package graphql
 import (
 	"testing"
 
-	"github.com/sensu/sensu-go/graphql"
+	"github.com/echlebek/sensu-lite/graphql"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

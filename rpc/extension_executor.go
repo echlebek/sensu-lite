@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 	"google.golang.org/grpc"
 )
 

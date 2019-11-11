@@ -3,7 +3,7 @@ package helpers
 import (
 	"testing"
 
-	"github.com/sensu/sensu-go/cli/commands/flags"
+	"github.com/echlebek/sensu-lite/cli/commands/flags"
 
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"

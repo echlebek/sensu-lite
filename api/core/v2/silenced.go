@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	stringsutil "github.com/sensu/sensu-go/util/strings"
+	stringsutil "github.com/echlebek/sensu-lite/util/strings"
 )
 
 const (

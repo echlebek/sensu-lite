@@ -1,6 +1,6 @@
 package globalid
 
-import "github.com/sensu/sensu-go/types"
+import "github.com/echlebek/sensu-lite/types"
 
 //
 // Role Bindings

@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"github.com/coreos/etcd/clientv3"
-	"github.com/sensu/sensu-go/backend/etcd"
-	"github.com/sensu/sensu-go/backend/store"
-	etcdstore "github.com/sensu/sensu-go/backend/store/etcd"
+	"github.com/echlebek/sensu-lite/backend/etcd"
+	"github.com/echlebek/sensu-lite/backend/store"
+	etcdstore "github.com/echlebek/sensu-lite/backend/store/etcd"
 )
 
 // IntegrationTestStore wrapper for etcd & store

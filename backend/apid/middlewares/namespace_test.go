@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/stretchr/testify/assert"
 )
 

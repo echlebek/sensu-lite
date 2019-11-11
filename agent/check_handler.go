@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sensu/sensu-go/agent/transformers"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/asset"
-	"github.com/sensu/sensu-go/command"
-	"github.com/sensu/sensu-go/transport"
-	"github.com/sensu/sensu-go/types/dynamic"
-	"github.com/sensu/sensu-go/util/environment"
+	"github.com/echlebek/sensu-lite/agent/transformers"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/asset"
+	"github.com/echlebek/sensu-lite/command"
+	"github.com/echlebek/sensu-lite/transport"
+	"github.com/echlebek/sensu-lite/types/dynamic"
+	"github.com/echlebek/sensu-lite/util/environment"
 	"github.com/sirupsen/logrus"
 )
 

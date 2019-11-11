@@ -5,10 +5,10 @@ import (
 	"io"
 
 	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/commands/helpers"
-	"github.com/sensu/sensu-go/cli/elements/table"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/commands/helpers"
+	"github.com/echlebek/sensu-lite/cli/elements/table"
+	"github.com/echlebek/sensu-lite/types"
 	"github.com/spf13/cobra"
 )
 

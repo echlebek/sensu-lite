@@ -11,7 +11,7 @@ import (
 
 	bolt "go.etcd.io/bbolt"
 
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 type mockFetcher struct {

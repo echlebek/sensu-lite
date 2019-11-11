@@ -1,9 +1,9 @@
 package graphql
 
 import (
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/backend/authentication/jwt"
-	"github.com/sensu/sensu-go/graphql"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/backend/authentication/jwt"
+	"github.com/echlebek/sensu-lite/graphql"
 )
 
 var _ schema.ViewerFieldResolvers = (*viewerImpl)(nil)

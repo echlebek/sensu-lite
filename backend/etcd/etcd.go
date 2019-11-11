@@ -20,7 +20,7 @@ import (
 	"github.com/coreos/etcd/pkg/transport"
 	etcdTypes "github.com/coreos/etcd/pkg/types"
 	"github.com/coreos/pkg/capnslog"
-	"github.com/sensu/sensu-go/util/path"
+	"github.com/echlebek/sensu-lite/util/path"
 	"google.golang.org/grpc/grpclog"
 )
 

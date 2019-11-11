@@ -5,11 +5,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sensu/sensu-go/backend/messaging"
-	"github.com/sensu/sensu-go/backend/ringv2"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/backend/store/cache"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/messaging"
+	"github.com/echlebek/sensu-lite/backend/ringv2"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/backend/store/cache"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // CheckWatcher manages all the check schedulers

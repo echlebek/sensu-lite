@@ -8,13 +8,13 @@ import (
 	"net/url"
 	"path"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/cli"
-	"github.com/sensu/sensu-go/cli/client"
-	"github.com/sensu/sensu-go/cli/client/config"
-	"github.com/sensu/sensu-go/cli/commands/flags"
-	"github.com/sensu/sensu-go/cli/commands/helpers"
-	"github.com/sensu/sensu-go/cli/elements/table"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/cli"
+	"github.com/echlebek/sensu-lite/cli/client"
+	"github.com/echlebek/sensu-lite/cli/client/config"
+	"github.com/echlebek/sensu-lite/cli/commands/flags"
+	"github.com/echlebek/sensu-lite/cli/commands/helpers"
+	"github.com/echlebek/sensu-lite/cli/elements/table"
 
 	"github.com/spf13/cobra"
 )

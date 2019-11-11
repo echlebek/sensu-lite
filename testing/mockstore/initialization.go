@@ -1,6 +1,6 @@
 package mockstore
 
-import "github.com/sensu/sensu-go/backend/store"
+import "github.com/echlebek/sensu-lite/backend/store"
 
 // StoreInitializer ...
 type StoreInitializer struct {

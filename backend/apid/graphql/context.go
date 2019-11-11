@@ -3,8 +3,8 @@ package graphql
 import (
 	"context"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/apid/graphql/globalid"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/globalid"
 )
 
 // setContextFromComponents takes a context and global id components, adds the

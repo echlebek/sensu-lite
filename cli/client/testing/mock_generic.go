@@ -3,8 +3,8 @@ package testing
 import (
 	"net/http"
 
-	"github.com/sensu/sensu-go/cli/client"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/cli/client"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // Delete ...

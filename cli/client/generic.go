@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"reflect"
 
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/types"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 // Delete sends a DELETE request to the given path

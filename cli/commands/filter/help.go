@@ -1,7 +1,7 @@
 package filter
 
 import (
-	"github.com/sensu/sensu-go/cli"
+	"github.com/echlebek/sensu-lite/cli"
 	"github.com/spf13/cobra"
 )
 

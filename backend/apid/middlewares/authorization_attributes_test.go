@@ -9,9 +9,9 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/assert"
 
-	sensuJWT "github.com/sensu/sensu-go/backend/authentication/jwt"
-	"github.com/sensu/sensu-go/backend/authorization"
-	"github.com/sensu/sensu-go/types"
+	sensuJWT "github.com/echlebek/sensu-lite/backend/authentication/jwt"
+	"github.com/echlebek/sensu-lite/backend/authorization"
+	"github.com/echlebek/sensu-lite/types"
 )
 
 func TestAuthorizationAttributes(t *testing.T) {

@@ -5,14 +5,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/store/etcd"
-	"github.com/sensu/sensu-go/types"
+	"github.com/echlebek/sensu-lite/backend/store/etcd"
+	"github.com/echlebek/sensu-lite/types"
 
 	"github.com/coreos/etcd/integration"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/testing/fixture"
-	"github.com/sensu/sensu-go/types/dynamic"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/testing/fixture"
+	"github.com/echlebek/sensu-lite/types/dynamic"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

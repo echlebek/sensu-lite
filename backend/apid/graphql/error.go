@@ -1,10 +1,10 @@
 package graphql
 
 import (
-	"github.com/sensu/sensu-go/backend/apid/graphql/schema"
-	"github.com/sensu/sensu-go/backend/authorization"
-	"github.com/sensu/sensu-go/backend/store"
-	"github.com/sensu/sensu-go/graphql"
+	"github.com/echlebek/sensu-lite/backend/apid/graphql/schema"
+	"github.com/echlebek/sensu-lite/backend/authorization"
+	"github.com/echlebek/sensu-lite/backend/store"
+	"github.com/echlebek/sensu-lite/graphql"
 )
 
 var _ schema.StandardErrorFieldResolvers = (*stdErrImpl)(nil)

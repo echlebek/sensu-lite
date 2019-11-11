@@ -5,8 +5,8 @@ package etcd
 import (
 	"testing"
 
-	"github.com/sensu/sensu-go/backend/store"
-	utilbytes "github.com/sensu/sensu-go/util/bytes"
+	"github.com/echlebek/sensu-lite/backend/store"
+	utilbytes "github.com/echlebek/sensu-lite/util/bytes"
 	"github.com/stretchr/testify/assert"
 )
 

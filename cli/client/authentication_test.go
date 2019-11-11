@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/go-resty/resty"
-	corev2 "github.com/sensu/sensu-go/api/core/v2"
-	"github.com/sensu/sensu-go/cli/client/config"
+	corev2 "github.com/echlebek/sensu-lite/api/core/v2"
+	"github.com/echlebek/sensu-lite/cli/client/config"
 	"github.com/stretchr/testify/assert"
 )
 

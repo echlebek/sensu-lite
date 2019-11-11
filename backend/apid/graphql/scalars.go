@@ -5,7 +5,7 @@ import (
 
 	definition "github.com/graphql-go/graphql"
 	"github.com/graphql-go/graphql/language/ast"
-	"github.com/sensu/sensu-go/graphql"
+	"github.com/echlebek/sensu-lite/graphql"
 )
 
 var _ graphql.ScalarResolver = (*jsonImpl)(nil)

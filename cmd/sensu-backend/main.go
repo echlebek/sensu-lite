@@ -3,8 +3,8 @@ package main
 import (
 	_ "net/http/pprof"
 
-	"github.com/sensu/sensu-go/backend"
-	"github.com/sensu/sensu-go/backend/cmd"
+	"github.com/echlebek/sensu-lite/backend"
+	"github.com/echlebek/sensu-lite/backend/cmd"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

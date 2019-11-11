@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/dave/jennifer/jen"
-	"github.com/sensu/sensu-go/graphql/generator"
+	"github.com/echlebek/sensu-lite/graphql/generator"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

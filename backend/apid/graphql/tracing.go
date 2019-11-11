@@ -2,7 +2,7 @@ package graphql
 
 import (
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/sensu/sensu-go/graphql/tracing"
+	"github.com/echlebek/sensu-lite/graphql/tracing"
 )
 
 func init() {
